@@ -125,7 +125,6 @@ function RzsMenu()
                                         ESX.ShowNotification('~r~Transaction annulé !')
                                     else
                                         if RZS.Confirm == 'Confirmer' or RZS.Confirm == 'confirmer' then
-                                            ESX.ShowNotification('~g~Transaction accepté !')
                                             TriggerServerEvent('rzs_darknet:buy', 'item', v.name, v.label, v.prix)
                                         else
                                             ESX.ShowNotification('~r~Transaction annulé !')
