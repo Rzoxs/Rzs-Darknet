@@ -13,7 +13,7 @@ ConfigDarknet = {
     Buy_In = true,
 
     -- Le message afficher quand-t-on a pas accès
-    AccesDeniedNotif = "~r~Vous fouiner un peu trop",
+    AccesDeniedNotif = "~r~Vous fouinez un peu trop",
 
     -- Les mots interdit dans les messages darknet
     Words_Blacklist = {
